@@ -9,8 +9,8 @@ from selenium.webdriver.firefox.options import Options
 
 
 for i in range (1, 100):
-	browser = webdriver.Firefox(executable_path = '/Users/hunterkrasa/Downloads/geckodriver')
-	browser.get('https://distrokid.com/spotlight/tpie/vote/')
+	browser = webdriver.Firefox(executable_path = '[path]')
+	browser.get('https://distrokid.com/spotlight/[user]/vote/')
 	a = ActionChains(browser)
 
 	sleep(4)
